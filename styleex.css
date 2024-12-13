@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  background-color: #1abc9c;
+  height: 40%;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.header h2 {
+  font-size: large;
+  color: black;
+  font-size: 40px;
+}
+/* -----------menubar---------------- */
+
+.nav a {
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+}
+.nav:hover {
+  background-color: white;
+  padding: 10px;
+}
+.nav:hover a {
+  color: black;
+}
+.menubar {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.menubar ul {
+  background-color: black;
+  list-style: none;
+  display: flex;
+}
+
+a {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+.menubar li {
+  padding: 10px;
+}
+.menubar li:hover {
+  background-color: white;
+}
+.menubar li:hover a {
+  color: black;
+}
+
+.menubar_right {
+  float: right;
+}
+
+/* -------------------men_body---------------------- */
+.man_body {
+  position: relative;
+  display: flex;
+}
+.aboutme {
+  background-color: #f1f1f1;
+  width: 30%;
+  padding: 10px;
+}
+.aboutme h2 {
+  font-size: 30px;
+  margin-top: 20px;
+}
+.aboutme p {
+  font-size: 20px;
+}
+.aboutme_img {
+  background-color: #1abc9c;
+  height: 180px;
+}
+.about_text {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.moretext {
+  font-size: 30px;
+  margin-top: 20px;
+}
+.more-te {
+  font-size: 30px;
+  margin-top: 20px;
+}
+.moretext_img {
+  background-color: #1abc9c;
+  height: 80px;
+}
+
+/* ------------title-heading--------------- */
+.title-heading {
+  background-color: white;
+}
+.aboutme_ui {
+  padding: 10px;
+}
+.aboutme_ui h2 {
+  font-size: 30px;
+  margin-top: 20px;
+}
+.aboutme_ui p {
+  font-size: 20px;
+}
+.titleheading_img {
+  background-color: #1abc9c;
+  height: 180px;
+  width: 100%;
+}
+.Some-text {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.some {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.titleheading {
+  font-size: 30px;
+  margin-top: 20px;
+}
+.titleheading_de {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.titleheading_imgs {
+  background-color: #1abc9c;
+  height: 180px;
+  width: 100%;
+}
+
+.sometext {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+footer {
+  background-color: black;
+  height: 200px;
+}
+.footer {
+  color: white;
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
